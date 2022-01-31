@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    background-color: white;
+}
+
+.logo {
+    width: 150px;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    
+   
+  
+}
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    color: #488143;
+    text-decoration: none;
+    margin-left: 50px;
+    font-weight: 700;
+}
