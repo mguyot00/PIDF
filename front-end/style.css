@@ -5,7 +5,7 @@
 }
 
 header{
-    position: fixed;
+    /*position: fixed;*/
     top: 0%;
     left: 0%;
     padding: 20px;
@@ -41,23 +41,67 @@ header{
 }
 
 
-
+/*section slide*/
 .p_slide {
-    position:relative; 
-   
-   
+   position:relative; 
+   object-fit: cover;
+   display: block;
+ 
+  
 }
 
-.slide {
-    
-    z-index:1;
+.background_img {
     max-width: 100%;
     height: auto;
-    display: block;
+}
+
+.content_slide {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    width: auto;
+}
+
+h1 {
+    font-size:200%;
+}
+
+/*section savoir-faire*/
+.blc-sf{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    margin-top: none;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.blc-cards{
+    display: flex;
+    width: 25%;
+    box-sizing: border-box;
+    background-color: white;
+    margin:25px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.blc-content {
+    box-sizing: border-box;
+    width:auto;
+    margin: 2%;
 }
 
 
 
-h1 {
-    position:absolute;top:360px; width:600px; height:400px; z-index:2;font-size:200%
+
+
+
+
+
+
+
+
+
+.footer_img{
+    width: 150px;
 }
